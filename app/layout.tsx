@@ -9,7 +9,7 @@ import "./globals.css"
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
-const siteUrl = "https://tetelestai-servicos.vercel.app"
+const siteUrl = "https://tetelestai-servicos-residenciais.vercel.app"
 const ogImageUrl = `${siteUrl}/og-image.jpg`
 
 export const metadata: Metadata = {
@@ -18,32 +18,32 @@ export const metadata: Metadata = {
   description: dadosCliente.seo.description,
   generator: "v0.app",
   openGraph: {
-    title: "Tetelestai Serviço Residências | Dedetização e Limpeza Rio de Janeiro",
+    title: "Tetelestai Serviços Residências | Dedetização e Limpeza Rio de Janeiro",
     description:
       "Dedetização, Descupinização, Desratização, Limpeza de Cisterna e Caixa d'Água em Rio de Janeiro. Ligue: (21) 97016-1801",
     type: "website",
     url: siteUrl,
-    siteName: "Tetelestai Serviço Residências",
+    siteName: "Tetelestai Serviços Residências",
     locale: "pt_BR",
     images: [
       {
         url: ogImageUrl,
         width: 1200,
         height: 630,
-        alt: "Tetelestai Serviço Residências - Serviços Profissionais de Dedetização e Limpeza em Rio de Janeiro",
+        alt: "Tetelestai Serviços Residências - Serviços Profissionais de Dedetização e Limpeza em Rio de Janeiro",
         type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tetelestai Serviço Residências | Dedetização e Limpeza Rio de Janeiro",
+    title: "Tetelestai Serviços Residências | Dedetização e Limpeza Rio de Janeiro",
     description:
       "Dedetização, Descupinização, Desratização, Limpeza de Cisterna e Caixa d'Água. Ligue: (21) 97016-1801",
     images: [
       {
         url: ogImageUrl,
-        alt: "Tetelestai Serviço Residências - Serviços Profissionais de Dedetização e Limpeza em Rio de Janeiro",
+        alt: "Tetelestai Serviços Residências - Serviços Profissionais de Dedetização e Limpeza em Rio de Janeiro",
       },
     ],
   },

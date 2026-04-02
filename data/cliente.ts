@@ -102,7 +102,7 @@ export const dadosCliente = {
     siteTitle: "Tetelestai Serviços Residências | Dedetização e Limpeza Rio de Janeiro | (21) 97016-1801",
     description:
       "Tetelestai Serviços Residências em Rio de Janeiro. Dedetização, descupinização, desratização, limpeza de cisterna e caixa d'água. Atendimento profissional em Campo Grande.",
-    url: "https://tetelestai-servicos.vercel.app",
+    url: "https://tetelestai-servicos-residenciais.vercel.app",
     ogImage: "/og-image.jpg",
   },
 }
