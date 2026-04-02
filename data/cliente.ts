@@ -31,31 +31,25 @@ export const dadosCliente = {
   servicos: [
     {
       id: 1,
-      titulo: "Dedetização",
-      descricao: "Controle especializado de baratas, formigas e pragas rasteiras",
-      icone: "🪳",
-    },
-    {
-      id: 2,
       titulo: "Descupinização",
       descricao: "Tratamento técnico contra cupins de solo e madeira seca",
       icone: "🪵",
     },
     {
-      id: 3,
+      id: 2,
       titulo: "Desratização",
       descricao: "Controle preventivo e corretivo de roedores com monitoramento",
       icone: "🐀",
     },
     {
-      id: 4,
+      id: 3,
       titulo: "Limpeza de Cisterna",
       descricao: "Limpeza completa e higienização de cisternas",
       icone: "💧",
       destaque: true,
     },
     {
-      id: 5,
+      id: 4,
       titulo: "Limpeza de Caixa d'Água",
       descricao: "Limpeza profissional e desinfecção de caixas d'água",
       icone: "🚰",
