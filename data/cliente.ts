@@ -11,20 +11,20 @@ export const dadosCliente = {
 
   // Informações de contato
   contato: {
-    whatsappNumber: "5544999324635",
-    whatsappLink: "https://wa.me/5544999324635?text=Olá, Preciso de um orçamento!!",
+    whatsappNumber: "5521970161801",
+    whatsappLink: "https://wa.me/5521970161801?text=Olá, Preciso de um orçamento!!",
     instagram: "", // Instagram removido
     email: "",
-    endereco: "Rua Deodoro da Fonseca, s/n - Zona Norte - Maringá - PR, CEP: 87.1000-000",
-    telefone: "(44) 99932-4635",
+    endereco: "R. Saquarema, 68 - Campo Grande - Rio de Janeiro - RJ, 23050-110",
+    telefone: "(21) 97016-1801",
   },
 
   // Conteúdo principal
   conteudo: {
-    tituloPrincipal: "Dedetizadora e Desentupidora Lady Bug | Controle de Pragas em Maringá",
-    subtitulo: "Proteção Completa Contra Pragas! 🛡️🪳\nDedetização, desratização, descupinização e controle de pragas urbanas. Atendimento profissional, técnicas especializadas e segurança garantida. Protegemos sua casa ou empresa com soluções eficazes!",
+    tituloPrincipal: "Tetelestai Serviço Residências | Limpeza e Dedetização Rio de Janeiro",
+    subtitulo: "Serviços Completos para sua Residência! 🏠✨\nDedetização, descupinização, desratização, limpeza de cisterna e caixa d'água. Atendimento profissional, técnicas especializadas e segurança garantida. Protegemos sua residência com soluções eficazes!",
     sobreNos:
-      "Somos a Dedetizadora e Desentupidora Lady Bug, especialistas em controle de pragas com atendimento profissional na Zona Norte de Maringá. Utilizamos técnicas especializadas e produtos de qualidade para resolver problemas com baratas, formigas, roedores, cupins e outras pragas. Nossa equipe experiente oferece soluções rápidas e confiáveis para residências, comércios e condomínios, com garantia de trabalho seguro e eficaz.",
+      "Somos Tetelestai Serviço Residências, especialistas em serviços residenciais com atendimento profissional em Rio de Janeiro. Oferecemos dedetização, descupinização, desratização e limpeza de cisternas e caixas d'água com técnicas especializadas e produtos de qualidade. Nossa equipe experiente oferece soluções rápidas e confiáveis para residências e condomínios, com garantia de trabalho seguro e eficaz.",
   },
 
   // Serviços oferecidos
@@ -37,22 +37,28 @@ export const dadosCliente = {
     },
     {
       id: 2,
-      titulo: "Desratização",
-      descricao: "Controle preventivo e corretivo de roedores com monitoramento",
-      icone: "🐀",
-    },
-    {
-      id: 3,
       titulo: "Descupinização",
       descricao: "Tratamento técnico contra cupins de solo e madeira seca",
       icone: "🪵",
     },
     {
+      id: 3,
+      titulo: "Desratização",
+      descricao: "Controle preventivo e corretivo de roedores com monitoramento",
+      icone: "🐀",
+    },
+    {
       id: 4,
-      titulo: "Controle de Pragas Urbanas",
-      descricao: "Gestão integrada para condomínios e empresas",
-      icone: "🛡️",
+      titulo: "Limpeza de Cisterna",
+      descricao: "Limpeza completa e higienização de cisternas",
+      icone: "💧",
       destaque: true,
+    },
+    {
+      id: 5,
+      titulo: "Limpeza de Caixa d'Água",
+      descricao: "Limpeza profissional e desinfecção de caixas d'água",
+      icone: "🚰",
     },
   ],
 
@@ -64,11 +70,11 @@ export const dadosCliente = {
     },
     {
       titulo: "Técnicas Especializadas",
-      descricao: "Soluções eficazes e seguras para todos os tipos de pragas",
+      descricao: "Soluções eficazes e seguras para residências",
     },
     {
-      titulo: "Zona Norte de Maringá",
-      descricao: "Serviços em toda a região de Maringá",
+      titulo: "Rio de Janeiro",
+      descricao: "Serviços em Campo Grande e região",
     },
   ],
 
@@ -76,33 +82,33 @@ export const dadosCliente = {
   depoimentos: [
     {
       id: 1,
-      nome: "Claudio M.",
-      profissao: "Residencial",
-      imagem: "/cliente-claudio.jpg",
-      texto: "Excelente atendimento aqui em Maringá. Estávamos com problema de baratas e a Lady Bug resolveu de primeira. Muito limpos e educados.",
+      nome: "Fernanda C.",
+      profissao: "Moradora de Campo Grande",
+      imagem: "/cliente-fernanda.jpg",
+      texto: "Excelente atendimento! Chamei a Tetelestai para fazer a limpeza da caixa d'água e fizeram um trabalho impecável. Muito profissionais e pontuais.",
     },
     {
       id: 2,
-      nome: "Juliana F.",
-      profissao: "Comercial",
-      imagem: "/cliente-juliana.jpg",
-      texto: "Contratamos para a nossa loja. Precisávamos do certificado sanitário e de um controle rígido. Equipe nota 10, super pontuais.",
+      nome: "Marcos P.",
+      profissao: "Síndico de Condomínio",
+      imagem: "/cliente-marcos.jpg",
+      texto: "Contratei para dedetização do prédio. Equipe muito competente, explicaram todo o processo e o resultado foi excelente. Super recomendo!",
     },
     {
       id: 3,
-      nome: "Roberto S.",
-      profissao: "Descupinização",
-      imagem: "/cliente-roberto.jpg",
-      texto: "Fizeram um trabalho técnico de descupinização no meu telhado. Explicaram todo o processo e o preço foi muito justo pela qualidade.",
+      nome: "Patrícia L.",
+      profissao: "Proprietária de Residência",
+      imagem: "/cliente-patricia.jpg",
+      texto: "Fizeram a limpeza da cisterna e descupinização. Trabalho de qualidade, preço justo e equipe educada. Já chamei mais de uma vez e sempre voltarei!",
     },
   ],
 
   // Metadados SEO
   seo: {
-    siteTitle: "Dedetizadora e Desentupidora Lady Bug | Controle de Pragas Maringá | (44) 99932-4635",
+    siteTitle: "Tetelestai Serviço Residências | Dedetização e Limpeza Rio de Janeiro | (21) 97016-1801",
     description:
-      "Dedetizadora e Desentupidora Lady Bug em Maringá. Controle especializado de baratas, formigas, roedores e cupins. Atendimento profissional na Zona Norte e região.",
-    url: "https://san-dedetizadora-azul.vercel.app",
+      "Tetelestai Serviço Residências em Rio de Janeiro. Dedetização, descupinização, desratização, limpeza de cisterna e caixa d'água. Atendimento profissional em Campo Grande.",
+    url: "https://tetelestai-servicos.vercel.app",
     ogImage: "/og-image.jpg",
   },
 }
