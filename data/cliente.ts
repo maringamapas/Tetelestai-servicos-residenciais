@@ -21,10 +21,10 @@ export const dadosCliente = {
 
   // Conteúdo principal
   conteudo: {
-    tituloPrincipal: "Tetelestai Serviço Residências",
+    tituloPrincipal: "Tetelestai Serviços Residências",
     subtitulo: "| Limpeza e Dedetização Rio de Janeiro\n\nServiços Completos para sua Residência! 🏠✨\nDedetização, descupinização, desratização, limpeza de cisterna e caixa d'água. Atendimento profissional, técnicas especializadas e segurança garantida. Protegemos sua residência com soluções eficazes!",
     sobreNos:
-      "Somos Tetelestai Serviço Residências, especialistas em serviços residenciais com atendimento profissional em Rio de Janeiro. Oferecemos dedetização, descupinização, desratização e limpeza de cisternas e caixas d'água com técnicas especializadas e produtos de qualidade. Nossa equipe experiente oferece soluções rápidas e confiáveis para residências e condomínios, com garantia de trabalho seguro e eficaz.",
+      "Somos Tetelestai Serviços Residências, especialistas em serviços residenciais com atendimento profissional em Rio de Janeiro. Oferecemos dedetização, descupinização, desratização e limpeza de cisternas e caixas d'água com técnicas especializadas e produtos de qualidade. Nossa equipe experiente oferece soluções rápidas e confiáveis para residências e condomínios, com garantia de trabalho seguro e eficaz.",
   },
 
   // Serviços oferecidos
@@ -99,9 +99,9 @@ export const dadosCliente = {
 
   // Metadados SEO
   seo: {
-    siteTitle: "Tetelestai Serviço Residências | Dedetização e Limpeza Rio de Janeiro | (21) 97016-1801",
+    siteTitle: "Tetelestai Serviços Residências | Dedetização e Limpeza Rio de Janeiro | (21) 97016-1801",
     description:
-      "Tetelestai Serviço Residências em Rio de Janeiro. Dedetização, descupinização, desratização, limpeza de cisterna e caixa d'água. Atendimento profissional em Campo Grande.",
+      "Tetelestai Serviços Residências em Rio de Janeiro. Dedetização, descupinização, desratização, limpeza de cisterna e caixa d'água. Atendimento profissional em Campo Grande.",
     url: "https://tetelestai-servicos.vercel.app",
     ogImage: "/og-image.jpg",
   },
