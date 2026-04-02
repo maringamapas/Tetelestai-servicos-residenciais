@@ -21,8 +21,8 @@ export const dadosCliente = {
 
   // Conteúdo principal
   conteudo: {
-    tituloPrincipal: "Tetelestai Serviço Residências | Limpeza e Dedetização Rio de Janeiro",
-    subtitulo: "Serviços Completos para sua Residência! 🏠✨\nDedetização, descupinização, desratização, limpeza de cisterna e caixa d'água. Atendimento profissional, técnicas especializadas e segurança garantida. Protegemos sua residência com soluções eficazes!",
+    tituloPrincipal: "Tetelestai Serviço Residências",
+    subtitulo: "| Limpeza e Dedetização Rio de Janeiro\n\nServiços Completos para sua Residência! 🏠✨\nDedetização, descupinização, desratização, limpeza de cisterna e caixa d'água. Atendimento profissional, técnicas especializadas e segurança garantida. Protegemos sua residência com soluções eficazes!",
     sobreNos:
       "Somos Tetelestai Serviço Residências, especialistas em serviços residenciais com atendimento profissional em Rio de Janeiro. Oferecemos dedetização, descupinização, desratização e limpeza de cisternas e caixas d'água com técnicas especializadas e produtos de qualidade. Nossa equipe experiente oferece soluções rápidas e confiáveis para residências e condomínios, com garantia de trabalho seguro e eficaz.",
   },
