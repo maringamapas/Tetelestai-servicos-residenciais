@@ -124,10 +124,8 @@ Exemplos:
 
 ### Google Site Verification
 ```
-Meta tag já incluída em layout.tsx:
-<meta name="google-site-verification" content="..." />
-
-Retirar se for outro Google Search Console ID
+Meta tag removida conforme políticas de privacidade.
+Adicione uma nova tag de verificação se necessário via Google Search Console.
 ```
 
 ## 📱 Teste em Dispositivo Real
