@@ -3,13 +3,13 @@ import Image from "next/image"
 import FooterCTA from "@/components/footer-cta"
 import { motion } from "framer-motion"
 import { dadosCliente } from "@/data/cliente"
-import { Bug, Mouse, Droplets, Faucet, type LucideIcon } from "lucide-react"
+import { Bug, Mouse, Droplets, GlassWater, type LucideIcon } from "lucide-react"
 
 const servicoIcones: Record<number, LucideIcon> = {
-  1: Bug,       // Descupinização
-  2: Mouse,     // Desratização
-  3: Droplets,  // Limpeza de Cisterna
-  4: Faucet,    // Limpeza de Caixa d'Água
+  1: Bug,        // Descupinização
+  2: Mouse,      // Desratização
+  3: Droplets,   // Limpeza de Cisterna
+  4: GlassWater, // Limpeza de Caixa d'Água
 }
 
 const Page = () => {
