@@ -3,6 +3,14 @@ import Image from "next/image"
 import FooterCTA from "@/components/footer-cta"
 import { motion } from "framer-motion"
 import { dadosCliente } from "@/data/cliente"
+import { Bug, Mouse, Droplets, Faucet, type LucideIcon } from "lucide-react"
+
+const servicoIcones: Record<number, LucideIcon> = {
+  1: Bug,       // Descupinização
+  2: Mouse,     // Desratização
+  3: Droplets,  // Limpeza de Cisterna
+  4: Faucet,    // Limpeza de Caixa d'Água
+}
 
 const Page = () => {
   return (
@@ -129,8 +137,18 @@ const Page = () => {
                     </div>
                   )}
                   <div className="relative z-10">
-                    <div className="text-3xl sm:text-4xl mb-3 sm:mb-4 transition-transform duration-200 group-hover:scale-110">
-                      {servico.icone}
+                    <div className="mb-3 sm:mb-4 transition-transform duration-200 group-hover:scale-110">
+                      {(() => {
+                        const IconComponent = servicoIcones[servico.id]
+                        return IconComponent ? (
+                          <IconComponent
+                            size={40}
+                            strokeWidth={1.5}
+                            className="text-amber-500"
+                            aria-hidden="true"
+                          />
+                        ) : null
+                      })()}
                     </div>
                     <h3 className="text-lg sm:text-xl font-semibold mb-2 text-white">{servico.titulo}</h3>
                     <p className="text-sm sm:text-base text-zinc-300">{servico.descricao}</p>
