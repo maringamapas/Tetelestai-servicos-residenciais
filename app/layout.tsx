@@ -1,7 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
 import { dadosCliente } from "@/data/cliente"
 import { ClienteProvider } from "@/components/cliente-provider"
 import "./globals.css"
@@ -65,7 +64,6 @@ export default function RootLayout({
         <ClienteProvider>
           {children}
         </ClienteProvider>
-        <Analytics />
       </body>
     </html>
   )
