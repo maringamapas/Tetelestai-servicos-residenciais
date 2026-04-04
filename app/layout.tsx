@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   description:
     "Tetelestai Serviços Residências em Rio de Janeiro. Dedetização, Descupinização, Desratização, Limpeza de Cisterna e Caixa d'Água. Atendimento profissional em Campo Grande. Ligue: (21) 97016-1801",
   generator: "v0.app",
+  verification: {
+    google: "OQ18zxm5jwjtUma02of36qhsH3hzOuIvHqnZSk-kd_A",
+  },
   openGraph: {
     title: "Tetelestai Serviços Residências | Dedetização e Limpeza Rio de Janeiro",
     description:
